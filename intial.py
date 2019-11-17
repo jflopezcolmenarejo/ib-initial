@@ -40,6 +40,7 @@ def page_scraper(ib_exchange_url):
 
 def main():
     '''
+    This script just write in a csv file all the symbols found in a IB Exchange
     Source of data: https://www.interactivebrokers.com/en/index.php?f=1562
     Exchanges:
     - nasdaq
