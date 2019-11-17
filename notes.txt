@@ -1,0 +1,4 @@
+I have mirrored conda (base) environment by creating qv_env.yml by:
+    conda env export > qv_env.yml
+Then I created the new environment by:
+    conda env create -f qv_env.yml
