@@ -1,4 +1,23 @@
+## Conda
+
 I have mirrored conda (base) environment by creating qv_env.yml by:
     conda env export > qv_env.yml
 Then I created the new environment by:
     conda env create -f qv_env.yml
+
+## Git
+
+Create a new remote:
+git remote add {remote_name} https://jflopezcolmenarejo/{repository_name}.git
+
+Delete a remote:
+git remote rm {remote_name}
+
+Push changes to github reepository:
+git push -u {remote_name} {branch_name}
+
+List remote
+git remote -v
+
+Rename remote name
+git remote rename {initial_name} {final_name}
